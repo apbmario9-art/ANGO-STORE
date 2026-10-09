@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ANGO STORE 🇦🇴</title>
+  <meta name="description" content="ANGO STORE - Loja online de produtos e jogos em Angola.">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #10131b;
+      color: white;
+    }
+    header {
+      background: #171d2a;
+      padding: 22px 15px;
+      text-align: center;
+      border-bottom: 2px solid #00d9a0;
+    }
+    header h1 { color: #00d9a0; margin: 0; }
+    header p { color: #ccc; }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 18px;
+      padding: 14px;
+      background: #202737;
+      flex-wrap: wrap;
+    }
+    nav a { color: white; text-decoration: none; }
+    .hero {
+      text-align: center;
+      padding: 45px 18px;
+      background: linear-gradient(135deg, #123e39, #252044);
+    }
+    .hero h2 { font-size: 30px; }
+    .hero p { color: #ddd; line-height: 1.6; }
+    .btn {
+      display: inline-block;
+      background: #00d9a0;
+      color: #07130f;
+      padding: 12px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 12px;
+    }
+    main { max-width: 1000px; margin: auto; padding: 20px; }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+    .card {
+      background: #1c2332;
+      border: 1px solid #30394b;
+      padding: 20px;
+      border-radius: 14px;
+      text-align: center;
+    }
+    .icon { font-size: 48px; }
+    .card h3 { color: #00d9a0; }
+    .card p { color: #ccc; line-height: 1.5; }
+    .notice {
+      background: #292335;
+      padding: 16px;
+      border-radius: 10px;
+      margin-top: 25px;
+      line-height: 1.6;
+    }
+    footer {
+      text-align: center;
+      background: #171d2a;
+      padding: 22px;
+      color: #bbb;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🇦🇴 ANGO STORE</h1>
+  <p>A tua loja digital de Angola</p>
+</header>
+
+<nav>
+  <a href="#inicio">Início</a>
+  <a href="#produtos">Produtos</a>
+  <a href="#conta">Minha conta</a>
+  <a href="#pagamentos">Pagamentos</a>
+</nav>
+
+<section class="hero" id="inicio">
+  <h2>Bem-vindo à ANGO STORE!</h2>
+  <p>Descobre produtos e serviços digitais para os teus jogos favoritos.</p>
+  <a class="btn" href="#produtos">Explorar produtos</a>
+</section>
+
+<main>
+  <section id="produtos">
+    <h2>🎮 Produtos digitais</h2>
+    <div class="products">
+      <article class="card">
+        <div class="icon">🔥</div>
+        <h3>Free Fire</h3>
+        <p>Espaço dedicado a produtos e serviços para jogadores.</p>
+        <p>Preço: a confirmar</p>
+        <a class="btn" href="#pagamentos">Consultar</a>
+      </article>
+
+      <article class="card">
+        <div class="icon">🎮</div>
+        <h3>Jogos</h3>
+        <p>Descobre conteúdos e produtos digitais para jogos.</p>
+        <p>Preço: a confirmar</p>
+        <a class="btn" href="#pagamentos">Consultar</a>
+      </article>
+
+      <article class="card">
+        <div class="icon">📱</div>
+        <h3>Aplicações</h3>
+        <p>Ferramentas e aplicações digitais.</p>
+        <p>Preço: a confirmar</p>
+        <a class="btn" href="#pagamentos">Consultar</a>
+      </article>
+    </div>
+  </section>
+
+  <section id="conta" class="notice">
+    <h2>👤 Criar conta</h2>
+    <p>O cadastro será ativado depois de configurarmos o Firebase.</p>
+    <p>Não introduzas palavras-passe neste protótipo.</p>
+  </section>
+
+  <section id="pagamentos" class="notice">
+    <h2>💳 Métodos de pagamento</h2>
+    <p>Express, PayPay e Unitel Money: integração por configurar.</p>
+    <p><strong>Importante:</strong> os pagamentos ainda não estão ativos. Confirma sempre o destinatário antes de pagar.</p>
+  </section>
+</main>
+
+<footer>
+  <p>© 2026 ANGO STORE 🇦🇴</p>
+  <p>Loja digital criada para Angola.</p>
+</footer>
+
+</body>
+</html>
